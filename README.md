@@ -114,9 +114,7 @@ public func colors(opacity: Double = 1) -> [Color]
 
 | dark mode | light mode |
 | --------- | ---------- |
-|
-|
-|
+| ![in-dark](https://github.com/wltrup/SwiftCMasher/assets/1015142/73287ef0-4beb-4467-9909-10e29509aae6) | ![in-light](https://github.com/wltrup/SwiftCMasher/assets/1015142/e803853c-36d2-4aee-a574-01de0c18685f) |
 
 ## Installation
 
