@@ -9,13 +9,13 @@
 
 **SwiftCMasher** is an SPM library for any platform that supports Swift, providing a port of the excellent [CMasher color maps](https://cmasher.readthedocs.io/index.html). Those are color maps particularly suitable for conveying scientific data in an accurate and visually pleasing fashion.
 
-Please refer to Ellert van der Velden's [description](https://cmasher.readthedocs.io/index.html) of the various color maps for details on how to choose a particular color map for a particular application.
+Please refer to Ellert van der Velden's [overview](https://cmasher.readthedocs.io/user/usage.html#colormap-application-overview) of the various color maps for details on how to choose a particular color map for a particular application.
 
 If you use this Swift port or Ellert's library (which is in Python), please follow his [Community Guidelines](https://cmasher.readthedocs.io/community_guidelines.html#community-guidelines).
 
 ## The Swift API
 
-This library provides only the color maps, not the full set of functions defined in the original Python implementation. If you feel that any of those functions should be ported as well, please open an issue and I'll consider it.
+This library provides only the color maps, not the full set of functions defined in the original Python implementation. If you feel that any of those functions should be ported as well, please open an [issue](https://github.com/wltrup/SwiftCMasher/issues) and I'll consider it.
 
 There are currently 53 supported color maps, described by the enumeration:
 
