@@ -94,14 +94,14 @@ public struct UInt8ColorComponents {
    public let blue: UInt8
 }
 
-public struct FloatColorComponents<Value: BinaryFloatingPoint> {
-   public let red: Value
-   public let green: Value
-   public let blue: Value
+public struct FloatColorComponents<T: BinaryFloatingPoint> {
+   public let red: T
+   public let green: T
+   public let blue: T
 }
 ```
 
-Note that `FloatColorComponents` is generic on the type of the values it contains. Additionally, if your project happens to support `UIKit` or `SwiftUI`, you can access a color map's color using
+Note that `FloatColorComponents` is generic on the type of the values it contains. Additionally, if your project happens to support `UIKit` or `SwiftUI`, you can also access a color map's colors using
 
 ```swift
 public func uiColors(alpha: CGFloat = 1) -> [UIColor]
